@@ -1,0 +1,138 @@
+*{
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+}
+body{ /*el fondo*/
+    background-color: #2D2C3C;
+}
+hr{ /*lineas blancass*/
+    border: 0.5px dotted white;
+    width: 90%;
+    margin: auto;
+}
+#main-contain{/*primer contenedor*/
+    width: 100%;
+    height: 80vh; /*lo que ve el user como alto*/
+    display: flex; /**/
+    align-items: center;/*centrar*/
+    justify-content: center; 
+}
+#main-contain .logo_main{/*Cuadro donde va la imagen color blaco*/
+    
+    width: 40%;
+    height: 60%;
+    text-align: -webkit-center;
+    align-items: center;
+    
+}
+#main-contain .logo_main .logo{
+    padding-top: 200px;
+}
+#main-contain .logo_main img{/*imagen caracteristicas*/
+    padding-top: 50px;
+    width: 70%;
+    
+}
+#main-contain .record{/*Cuadro donde va la imagen color blaco*/
+    width: 40%;
+    height: 60%;
+    text-align: -wbkit-center;
+}
+#main-contain .record img{
+    width: 75%;
+}
+/*Fin ultima sesion */
+#music{ /*segunda sesion de la pagina*/
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+   
+}
+#music h1{
+    padding-top: 50px;
+    font-size: 65px;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#music p{
+    padding: 10px 250 px;
+    color: rgb(191, 198, 204);
+    line-height: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    
+}
+
+#music .cont-general-music{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#music .main_title_song{
+    width: 40%;
+    height: 100%;
+   
+}
+#music .main_title_song img {
+    width: 80%;
+    height: auto;
+}
+#music .cont_song{
+    padding-top: 70px;
+    width: 40%;
+    height: 100%;
+   
+}
+#music .cont_song img{
+    width: 50%;
+    padding: 15px;
+}
+footer{/*ultima sesion / tama;o de la sesion */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+footer i{ /* tama;o de los iconos*/
+    font-size:50px ;
+    color: white;
+    padding: 65px;
+    transition: all 1s;
+    
+}
+footer i:hover{ /*Cambia el tama;o y color*/
+    font-size:70px ;
+    color: rgb(156, 21, 21);
+    padding: 65px;
+    transition: all 1s;
+}
+/*RESPONSITY*/
+@media screen and (max-width: 1500px) {
+    #main-contain .logo_main, #main-contain .record{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #main-contain, #music .cont-general-music, #music{
+       height: auto;
+       display: block ;
+    }
+    #main-contain .logo_main, #main-contain .record, #music .main_title_song,#music .cont_song{
+        width: 80%;
+        height: auto ;
+    }
+    #music h1{
+        font-size: 50px;
+    }
+    #music p{
+        padding: 10px 50px;
+    }
+}
+
+    
