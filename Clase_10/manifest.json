@@ -1,0 +1,61 @@
+{
+    "name": "Todos a la u",
+    "short_name": "Atenea",
+    "description": "Esta es una pagina realizada para el curso de fullstack intermedio, en la unidad  PWA",
+    "background_color": "#FFFFFF",
+    "theme_color":"#2D2C3C",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_souerce=web_app_manifest",
+    "scope": "./",
+    "lang": "es-CO",
+    "icons":[
+        {
+            "src": "./resource/icono/icon1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./resource/icono/icon16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+       
+    ]
+    
+}
