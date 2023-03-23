@@ -6,7 +6,7 @@
     "theme_color":"#2D2C3C",
     "orientation": "portrait",
     "display": "standalone",
-    "start_url": "./?utm_souerce=web_app_manifest",
+    "start_url": "./todosU/Clase_10/index.html",
     "scope": "./",
     "lang": "es-CO",
     "icons":[
