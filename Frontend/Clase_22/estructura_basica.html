@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--compatibilidad-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--escala respositive -->
-    <title>Document</title>
     <link rel="stylesheet" href="style.css"> <!--para gregar estilos de css-->
+    <link rel="icon" href="tecnologia.ico" type="image/x-icon"> <!--ICONO DE LA PAGINA-->
     <base href="" target="_blank"> <!--Esta es la base -->
-</head>
+    </head>
+    <title>Ejercicio html</title>
+    
  <body> 
     <!--las secciones contienen a los div -->
     <!--DIV--divisiones de las paginas web -->
@@ -79,6 +81,137 @@
     </blockquote>
 
     <!--br es el salto de linea-->
-    <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+    <p>Hola mi nombre es Julieth <br> Mi apellido es Romero </p>
+
+    <!--etiqueta button, Boton, puede tener diversas funciones al ser ejecutado-->
+    <button type="button" autofocus target="_blank" onclick="funcion()">Click Me!</button>
+    <button type="button" autofocus onclick="alert('hello word')">Click Me!</button>
+    
+    <script>
+      function funcion(){
+        window.location.href = 'http://api.whatsapp.com/send/?phone=573224057730';
+      }
+    </script>
+    <!--CITAR ALGO-->
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+    <!--TABLE, es para crear tablas tr table row/columba td table data/celdas -->
+
+    <!--EJEMPLO ETIQUETA DE TABLA-->
+    <table>
+      <thead>
+        <tr>
+         <th>id</th> 
+         <th>Nombre</th> 
+         <th>Apellido</th> 
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Julieth</td>
+          <td>Romero </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>edwin</td>
+          <td>Garzon </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Claudia</td>
+          <td>Romero </td>
+        </tr>
+      </tbody>
+    </table>
+    <!--FORM son formularios / inicio de sesion o registro-->
+    <form action="/action_page.php" method="get">
+      <label for="fname">First name:</label>
+      <input type="datetime" name="" id=""> <!--ZONA HORARIA -->
+      <input type="month" name="" id=""> 
+      <input type="radio" name="" id="">
+      <input type="range" name="" id="">
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <!--IFRAME embeber paghinas pdfs-->
+    <iframe src="https://www.w3schools.com"></iframe>
+
+    <!--HR/ CAMBIO DE TEMA ENTRE PARRAFOS/ SEPARADOR/ UNA LINEA TRASADORA -->
+    <hr>
+    <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+    <hr>
+
+    <!--img para imagenes -->
+    <img src="paris.jpg" alt="Paris" title="IMAGEN" width="100" height="100"><br>
+
+    <!--LABEL DA INSTRUCCION DE QUE HACER VA CON LOS INPUT-->
+    <label for="nombre">Digite el nombre</label><br>
+    <input type="text" id="nombre" name="nombre">
+
+    <!--Ol/ order list/ lista ordenada -->
+    <!--li-->
+    <!--UL/ unorder list/ lista desordenada -->
+    <p>The ol element defines an ordered list:</p>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <p>The ul element defines an unordered list:</p>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul><br>
+    <hr>
+    <!--nav un set de navegacion para redirigir -->
+    <nav>
+      <a href="/html/">HTML</a> |
+      <a href="/css/">CSS</a> |
+      <a href="/js/">JavaScript</a> |
+      <a href="/python/">Python</a>
+    </nav>
+    <hr>
+
+    <!--SELECT/OPTIONS = seleccionar y guarda el valor-->
+    <h2>Elegir carro</h2>
+    <label for="cars">Choose a car:</label>
+
+    <select id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <!--STRONG NEGRILLA-->
+    <strong>This text is important!</strong>
+    <hr>
+    <!--SUMMARY despliega informacion -->
+    <details>
+      <summary>Epcot Center</summary>
+      <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      <img src="paris.jpg" alt="" width="100" height="100">
+    </details>
+
+    <hr>
+    <!--TEXTARE se puede comentar lo q se desea-->
+    <label for="w3review">Escriba informacion :</label>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+    At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+    </textarea><hr>
+    <!--U = UNDERLINE-->
+    <p>This is some <u>mispeled</u> text.</p>
+    <hr>
+    <!--VIDEO-->
+    <video width="320" height="240" controls>
+      <source src="Positive Affirmations for Self Love, Self Esteem, Confidence 💫.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </body>
 </html>
