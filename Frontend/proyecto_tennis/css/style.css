@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+
+body{  
+    /*background-image: linear-gradient(194deg, #44A08D, #093637);
+    background-image: linear-gradient(194deg, #2C3E50, #4CA1AF);*/
+    background-image: linear-gradient(194deg, #3879c4, #373737);
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+header img{
+    height: 80%;
+    padding-top: 8px;
+}
+header nav{
+    height: 80%;
+    width: 750px;
+    float: right;
+}
+header nav ul{
+    display: inline-flex;
+}
+header nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+}
+header nav ul li a{
+    margin: 0px 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+header nav ul li a:hover{
+    color: rgb(196, 55, 55);
+}
+#main_frame{
+    width: 100%;
+    height: 750px;
+    margin-top: 40px;
+    display: flex;
+    
+}
+#main_frame .description{
+    width: 40%;
+    height: 100%;
+    
+    padding: 0px 50px;
+    color: white;
+}
+#main_frame .description h1{
+    font-size: 85px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#main_frame .description h1 sup{
+    font-size: 45px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+#main_frame .description span{
+    font-size: 22px;
+}
+#main_frame .description p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+#main_frame .description button{
+    padding: 15px 20px; /*arriba - al lado*/
+    background-color: #0000005d;
+    border-radius: 100px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px #ffffff7c; /*Sombra del boton*/
+}
+#main_frame .contain-size{
+    width: 100%;
+    height: 35px;
+    margin-top: 40px;
+    display: inline-flex;
+    margin: 40px auto;
+}
+#main_frame .contain-size .size{
+    width: 55px;
+    border-radius: 20px;
+    height: 100%;
+    margin: 0px 10px;
+    background-color: rgba(250, 250, 250, 0.63);
+    color: #1f1e1e;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 35px;
+}
+#main_frame .product{
+    width: 60%;
+    height: 100%;
+}
+#main_frame .product h3{
+    font-size: 570px;
+    line-height: 0px;
+    margin-top: 300px;
+    color: #cecece51;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#main_frame img{
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    width: 800px;
+}
+footer{ /* El pie de pagina*/
+    width: 100%;
+    margin-top: -20px;
+    height: 100px;
+}
+footer .selector-product{
+    width: 350px;
+    height: 40px;
+    margin-left: 300px;
+    margin-bottom: -40px;
+    color: aliceblue;
+}
+footer .selector-product img{
+    height: 80px;
+}
+footer .social-media{
+    width: 350px;
+    height: 80px;
+    float: right;
+    margin-top: 30px;
+}
+footer .social-media i{
+    color: white;
+    font-size: 22px;
+    padding: 30px 20px 0px 20px;
+}
+footer .selector-product .teni_reverse{
+    transform: scaleX(-1);
+}
