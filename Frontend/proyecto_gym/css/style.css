@@ -1,0 +1,11 @@
+
+.contenedor{
+    width: 450px;
+    height: 350px;
+    background-color: aqua;
+}
+.hijo{
+    width: 240px;
+    height: 150px;
+    background-color: rgb(4, 8, 8);
+}
